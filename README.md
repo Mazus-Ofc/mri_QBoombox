@@ -26,10 +26,12 @@ Projeto desenvolvido originalmente por **Gordela** e atualmente mantido pela com
 
 Edite o arquivo config.lua para personalizar:
 
+```
 Config.framework = 'qbcore' -- Opções: qbcore / esx / custom
 Config.useItem = false -- Ativar/desativar uso de item
 Config.itemName = 'speaker' -- Nome do item (se useItem = true)
 Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
+```
 
 ## 🎮 Como Usar
 
