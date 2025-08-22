@@ -36,23 +36,23 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 ## 🎮 Como Usar
 
-> Se useItem = false: use o comando /createSpeaker para criar uma boombox.
->
-> Se useItem = true: utilize o item configurado no inventário.
+- Se useItem = false: use o comando /createSpeaker para criar uma boombox.
+- Se useItem = true: utilize o item configurado no inventário.
 
 ## 📜 Comandos
 
-> /createSpeaker – Cria uma boombox (quando useItem = false)
->
-> /fixSpeakers – Recarrega todos os alto-falantes
+```
+/createSpeaker – Cria uma boombox (quando useItem = false)
+/fixSpeakers – Recarrega todos os alto-falantes
+```
 
 ## 📌 Teclas
 
-> E (38) – Abrir a UI do boombox
->
-> ENTER (191) – Posicionar a boombox
->
-> E (38) – Alterar animação
+```
+E (38) – Abrir a UI do boombox
+ENTER (191) – Posicionar a boombox
+E (38) – Alterar animação
+```
 
 ## 🤝 Créditos
 
