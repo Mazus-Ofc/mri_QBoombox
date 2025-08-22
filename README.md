@@ -23,21 +23,25 @@ Projeto desenvolvido originalmente por **Gordela** e atualmente mantido pela com
    ensure mri_Qboombox
    ```
 
+---
+
 ## 🔧 Configuração
 
-Edite o arquivo config.lua para personalizar:
+Edite o arquivo `config.lua` para personalizar:
 
-```
+```lua
 Config.framework = 'qbcore' -- Opções: qbcore / esx / custom
-Config.useItem = false -- Ativar/desativar uso de item
-Config.itemName = 'speaker' -- Nome do item (se useItem = true)
-Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
+Config.useItem = false -- Defina como true para usar item do inventário
 ```
+
+---
 
 ## 🎮 Como Usar
 
-- Se useItem = false: use o comando /createSpeaker para criar uma boombox.
-- Se useItem = true: utilize o item configurado no inventário.
+- Se `useItem = false`: use o comando `/createSpeaker` para criar uma boombox.
+- Se `useItem = true`: utilize o item configurado no inventário.
+
+---
 
 ## 📜 Comandos
 
@@ -45,6 +49,8 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 /createSpeaker – Cria uma boombox (quando useItem = false)
 /fixSpeakers – Recarrega todos os alto-falantes
 ```
+
+---
 
 ## 📌 Teclas
 
@@ -54,15 +60,20 @@ ENTER (191) – Posicionar a boombox
 E (38) – Alterar animação
 ```
 
+---
+
 ## 🤝 Créditos
 
 - Autor original: Gordela
-
 - Mantenedor: Mazus
+
+---
 
 ## ❓ Suporte
 
 Discord:
+
+---
 
 ## 📦 Extensões / Projetos Relacionados
 
@@ -80,7 +91,7 @@ Discord:
 2. Garanta a ordem de start no `server.cfg`:
 
    ```cfg
-   ensure mri_QBoombox
+   ensure mri_Qboombox
    ensure mz_boombox_bridge
    ensure qb-phone
    ```
