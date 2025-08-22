@@ -18,6 +18,7 @@ Projeto desenvolvido originalmente por **Gordela** e atualmente mantido pela com
 2. Importe o arquivo **`database.sql`** para o seu banco de dados.
 3. Configure o arquivo **`config.lua`** conforme necessário.
 4. Adicione no seu `server.cfg`:
+
    ```cfg
    ensure mri_Qboombox
    ```
@@ -35,15 +36,15 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 ## 🎮 Como Usar
 
-Se useItem = false: use o comando /createSpeaker para criar uma boombox.
+- Se useItem = false: use o comando /createSpeaker para criar uma boombox.
 
-Se useItem = true: utilize o item configurado no inventário.
+- Se useItem = true: utilize o item configurado no inventário.
 
 ## 📜 Comandos
 
-/createSpeaker – Cria uma boombox (quando useItem = false)
+- /createSpeaker – Cria uma boombox (quando useItem = false)
 
-/fixSpeakers – Recarrega todos os alto-falantes
+- /fixSpeakers – Recarrega todos os alto-falantes
 
 ## 📌 Teclas
 
@@ -55,9 +56,9 @@ Se useItem = true: utilize o item configurado no inventário.
 
 ## 🤝 Créditos
 
-Autor original: Gordela
+- Autor original: Gordela
 
-Mantenedor: Mazus
+- Mantenedor: Mazus
 
 ❓ Suporte
 
