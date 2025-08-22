@@ -42,9 +42,9 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 ## 📜 Comandos
 
-- /createSpeaker – Cria uma boombox (quando useItem = false)
-
-- /fixSpeakers – Recarrega todos os alto-falantes
+> /createSpeaker – Cria uma boombox (quando useItem = false)
+>
+> /fixSpeakers – Recarrega todos os alto-falantes
 
 ## 📌 Teclas
 
@@ -60,7 +60,7 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 - Mantenedor: Mazus
 
-❓ Suporte
+## ❓ Suporte
 
 Discord:
 
