@@ -36,9 +36,9 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 ## 🎮 Como Usar
 
-- Se useItem = false: use o comando /createSpeaker para criar uma boombox.
-
-- Se useItem = true: utilize o item configurado no inventário.
+> Se useItem = false: use o comando /createSpeaker para criar uma boombox.
+>
+> Se useItem = true: utilize o item configurado no inventário.
 
 ## 📜 Comandos
 
@@ -48,11 +48,11 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 
 ## 📌 Teclas
 
-- E (38) – Abrir a UI do boombox
-
-- ENTER (191) – Posicionar a boombox
-
-- E (38) – Alterar animação
+> E (38) – Abrir a UI do boombox
+>
+> ENTER (191) – Posicionar a boombox
+>
+> E (38) – Alterar animação
 
 ## 🤝 Créditos
 
@@ -78,6 +78,7 @@ Discord:
 
 1. Baixe e coloque a pasta `mz_boombox_bridge` em `resources/`.
 2. Garanta a ordem de start no `server.cfg`:
+
    ```cfg
    ensure mri_QBoombox
    ensure mz_boombox_bridge
