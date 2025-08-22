@@ -45,20 +45,16 @@ Config.useItem = false -- Defina como true para usar item do inventário
 
 ## 📜 Comandos
 
-```
-/createSpeaker – Cria uma boombox (quando useItem = false)
-/fixSpeakers – Recarrega todos os alto-falantes
-```
+- `/createSpeaker` – Cria uma boombox (quando useItem = false)
+- `/fixSpeakers` – Recarrega todos os alto-falantes
 
 ---
 
 ## 📌 Teclas
 
-```
-E (38) – Abrir a UI do boombox
-ENTER (191) – Posicionar a boombox
-E (38) – Alterar animação
-```
+- `E (38)` – Abrir a UI do boombox
+- `ENTER (191)` – Posicionar a boombox
+- `E (38)` – Alterar animação
 
 ---
 
