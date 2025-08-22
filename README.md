@@ -63,3 +63,23 @@ Config.timeZone = "America/Sao_Paulo" -- Fuso horário do servidor
 ❓ Suporte
 
 Discord:
+
+## 📦 Extensões / Projetos Relacionados
+
+- [mz_boombox_bridge](https://github.com/Mazus-Ofc)  
+  Extensão que adiciona novas funcionalidades ao **mri_QBoombox**, expandindo as possibilidades de uso no servidor.
+
+### O que é
+
+> **Este módulo pertence ao script `qb-phone` (aplicativo Boombox).**  
+> Bridge leve entre o **mri_QBoombox** e UIs do servidor — com foco no **qb-phone (Boombox App)** — expondo endpoints NUI para criar caixas, tocar/pausar, avançar/voltar faixas, volume, distância e busca no YouTube.
+
+### Instalação rápida
+
+1. Baixe e coloque a pasta `mz_boombox_bridge` em `resources/`.
+2. Garanta a ordem de start no `server.cfg`:
+   ```cfg
+   ensure mri_QBoombox
+   ensure mz_boombox_bridge
+   ensure qb-phone
+   ```
