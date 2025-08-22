@@ -19,9 +19,9 @@ Projeto desenvolvido originalmente por **Gordela** e atualmente mantido pela com
 3. Configure o arquivo **`config.lua`** conforme necessário.
 4. Adicione no seu `server.cfg`:
 
-   ```cfg
-   ensure mri_Qboombox
-   ```
+```cfg
+ensure mri_Qboombox
+```
 
 ---
 
@@ -86,8 +86,8 @@ Discord:
 1. Baixe e coloque a pasta `mz_boombox_bridge` em `resources/`.
 2. Garanta a ordem de start no `server.cfg`:
 
-   ```cfg
-   ensure mri_Qboombox
-   ensure mz_boombox_bridge
-   ensure qb-phone
-   ```
+```cfg
+ensure mri_Qboombox
+ensure mz_boombox_bridge
+ensure qb-phone
+```
